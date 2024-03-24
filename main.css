@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafffd;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+}
+
+section{
+    color:#1b604d;
+    padding: 20px;
+}
+
+header, footer{
+    background-color: #1b604d;
+    color:#ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 40px;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+}
+
+h2{
+    border-bottom: 3px solid #1b604d;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    padding-bottom: 5px;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+li{
+    display: inline;
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+#em-cartaz #imagens{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+#imagens .poster{
+    width:50%;
+    padding: 10px;
+}
+
+#cena img{
+    width: 100%;
+    padding: 10px;
+
+}
+
+#em-cartaz #descricao{
+    width: 50%;
+    padding: 10px 40px; 
+}
+
+#em-cartaz a{
+    color:#1b604d;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#em-cartaz h3{
+    padding-left:10px;
+}
+
+#descricao h3{
+    padding: 40px 0px 20px 0px;
+}
+
+#descricao li{
+    background-color: #1b604d;
+    color: #ffffff;
+    margin:10px 10px 10px 0px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+#em-breve ul{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#em-breve img{
+    width: 400px;
+    height: 500px;
+}
+
+#em-breve a{
+    text-align: center;
+    text-decoration: none;
+    color: #1b604d;
+}
+
+#fique-por-dentro form{
+    padding: 20px 100px;
+    display: inline-block;
+}
+
+#conteudo-formulario .max{
+    width: 100%;
+}
+
+
+#fique-por-dentro input{
+    margin: 5px;
+    padding: 10px;
+    color:#1b604d;
+    background-color:#ffffff;
+}
+
+#fique-por-dentro #botao-enviar{
+    background-color: #1b604d;
+    color:#ffffff;
+    margin-left: 40px ;
+    padding: 10px 80px;
+}
+
+footer{
+    padding: 40px 100px 0px 100px;
+}
+
+footer img{
+    height: 40px;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer li{
+    padding: 0px;
+}
+
+#pin{
+    height: 30px;
+}
+
